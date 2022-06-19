@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+nav {   
+  background-color: green;
+  border-bottom: 10px solid burlywood;
+  position: fixed;
+  width: 100%;
+  top: 0;  
+  
+}
+
+ul {
+  text-align: right;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 18px;  
+  padding: 15px;
+
+}
+
+li:hover{
+  background-color: burlywood;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {    
+  margin-top: 90px;
+  text-align: center;
+
+}
+
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  font-size: 10px;
+
+}
+
+.fontTxt {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact {   
+  background-color: bisque;
+  border-top: 5px solid burlywood;
+  padding: 15px;
+
+}
+
+#data {  
+  border: 2px solid burlywood;
+  border-radius: 20px;
+  padding: 20px;
+  display: inline-block;
+   
+}
+
+  
